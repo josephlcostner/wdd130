@@ -13,12 +13,17 @@ body {
     color: var(black)
 }
 
+.hero {
+    position: relative;
+}
+
 header, main, footer {
     width: 840px;
     margin: 0 auto;
+    color: black;
 }
 
-h1, h2 {
+h1 {
     font-family: var(Red);
 }
 
