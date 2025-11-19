@@ -13,7 +13,7 @@ body {
     color: var(black)
 }
 
-.hero {
+.hero article{
     position: relative;
 }
 
