@@ -89,11 +89,11 @@ main img {
   height: auto;
   border: 1px solid rgb(0 0 0 / 0.2);
   padding: 10px;
-  
   float: right;
 }
 
-p { padding: 0;
+p { 
+    padding: 0;
 }
 
 
