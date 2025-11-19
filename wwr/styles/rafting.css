@@ -14,7 +14,7 @@ body {
 }
 
 .hero article{
-    position: relative;
+    position: absolute;
 }
 
 header, main, footer {
