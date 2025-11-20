@@ -17,6 +17,16 @@ body {
     position: absolute;
 }
 
+header {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+nav {
+    justify-content: center;
+}
+
 header, main, footer {
     width: 840px;
     margin: 0 auto;
