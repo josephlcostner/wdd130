@@ -17,6 +17,8 @@ body {
     position: absolute;
 }
 
+
+
 header {
     
     align-items: center;
@@ -53,6 +55,12 @@ nav, p, section, article {
     position: relative;
 }
 
+.contact {
+    position: relative;
+    text-align: center;
+    
+}
+
 
 
 .hero img {
@@ -62,7 +70,7 @@ nav, p, section, article {
 }
 
 h1 {
-    position: absolute;
+    position: relative;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -76,4 +84,46 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    text-align: right;
+}
+
+label {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75;
+    font-size: 1.2rem;
+}
+
+.map img {
+    float: left;
+    width: 200px;
 }
