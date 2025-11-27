@@ -93,7 +93,7 @@ form {
     border: 1px solid rgb(0 0 0 / 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
-    display: grid;
+    display: flex;
     text-align: right;
 }
 
@@ -125,5 +125,9 @@ button {
 
 .map img {
     float: left;
-    width: 200px;
+    width: 400px;
+}
+
+.serve {
+    align-items: center;
 }
