@@ -21,6 +21,10 @@ body {
     margin: 30px;
 }
 
+.river {
+    display: grid;
+}
+
 header {
     
     align-items: center;
