@@ -17,13 +17,16 @@ body {
     position: absolute;
 }
 
-.river h1{
+ h1{
     margin: 30px;
 }
 
 .river {
-    display: grid;
+    
+    align-items: center;
 }
+
+
 
 header {
     
