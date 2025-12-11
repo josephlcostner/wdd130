@@ -67,6 +67,20 @@ header nav {
     list-style-type: none;
 }
 
+.rio img{
+    
+    width: 400px;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+.mexico {
+    display: grid;
+    grid-template-rows: 100px 300px;
+}
+
 header nav {
     display: block;
     color: #0040ff;
