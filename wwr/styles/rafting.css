@@ -18,12 +18,16 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
 }
 
 body, html {
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    
+    text-align: center;
 }
 
  h1{
@@ -79,9 +83,11 @@ nav, p, section, article {
     
 }
 
+body {
+    align-items: center;
+}
 
-
-.grid img {
+.box img {
     display: block;
     width: 100%;
     height: auto;
